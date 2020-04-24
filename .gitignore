@@ -88,3 +88,11 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+Pods/Target Support Files/Pods-SimplyChat/Pods-SimplyChat-acknowledgements.markdown
+Pods/Target Support Files/Pods-SimplyChat/Pods-SimplyChat-acknowledgements.plist
+Pods/Target Support Files/Pods-SimplyChat/Pods-SimplyChat-dummy.m
+Pods/Target Support Files/Pods-SimplyChat/Pods-SimplyChat-Info.plist
+Pods/Target Support Files/Pods-SimplyChat/Pods-SimplyChat-umbrella.h
+Pods/Target Support Files/Pods-SimplyChat/Pods-SimplyChat.debug.xcconfig
+Pods/Target Support Files/Pods-SimplyChat/Pods-SimplyChat.modulemap
+Pods/Target Support Files/Pods-SimplyChat/Pods-SimplyChat.release.xcconfig
