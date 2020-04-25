@@ -8,6 +8,7 @@ def pods_list
     #pod 'SVProgressHUD', '2.1.2'
     #pod 'ReachabilitySwift'
     #pod 'IQKeyboardManagerSwift'
+	pod 'SwiftLint'
 end
 
 target 'SimplyChat' do

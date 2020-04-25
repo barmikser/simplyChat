@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D6D20762453CDB300935A08 /* MessageMainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D20742453CDB300935A08 /* MessageMainViewCell.swift */; };
+		6D6D20772453CDB300935A08 /* MessageMainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D6D20752453CDB300935A08 /* MessageMainViewCell.xib */; };
 		B52FB44924536F5700F83B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52FB44824536F5700F83B0D /* AppDelegate.swift */; };
 		B52FB44B24536F5700F83B0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52FB44A24536F5700F83B0D /* SceneDelegate.swift */; };
 		B52FB44D24536F5700F83B0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52FB44C24536F5700F83B0D /* ViewController.swift */; };
@@ -14,10 +16,15 @@
 		B52FB45324536F5700F83B0D /* SimplyChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B52FB45124536F5700F83B0D /* SimplyChat.xcdatamodeld */; };
 		B52FB45524536F5900F83B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52FB45424536F5900F83B0D /* Assets.xcassets */; };
 		B52FB45824536F5900F83B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52FB45624536F5900F83B0D /* LaunchScreen.storyboard */; };
-		BE53C8F369990F12F6D98E1E /* Pods_SimplyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD154BDB9F87E129328D81AF /* Pods_SimplyChat.framework */; };
+		C33A5D1067D7419A50466FA1 /* Pods_SimplyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E1B863E9D78737673AA221 /* Pods_SimplyChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05832EB69ED436B1B17EEED3 /* Pods-SimplyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplyChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimplyChat/Pods-SimplyChat.debug.xcconfig"; sourceTree = "<group>"; };
+		19C944E2B01B4C1EEADFE6E8 /* Pods-SimplyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimplyChat/Pods-SimplyChat.release.xcconfig"; sourceTree = "<group>"; };
+		28E1B863E9D78737673AA221 /* Pods_SimplyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D6D20742453CDB300935A08 /* MessageMainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMainViewCell.swift; sourceTree = "<group>"; };
+		6D6D20752453CDB300935A08 /* MessageMainViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageMainViewCell.xib; sourceTree = "<group>"; };
 		B52FB44524536F5700F83B0D /* SimplyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52FB44824536F5700F83B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B52FB44A24536F5700F83B0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,9 +34,6 @@
 		B52FB45424536F5900F83B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B52FB45724536F5900F83B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B52FB45924536F5900F83B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD154BDB9F87E129328D81AF /* Pods_SimplyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1CEFAAD3C12E8A30D561D96 /* Pods-SimplyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplyChat.release.xcconfig"; path = "Target Support Files/Pods-SimplyChat/Pods-SimplyChat.release.xcconfig"; sourceTree = "<group>"; };
-		CB58578B769BAA3CF7E6B932 /* Pods-SimplyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplyChat.debug.xcconfig"; path = "Target Support Files/Pods-SimplyChat/Pods-SimplyChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,20 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE53C8F369990F12F6D98E1E /* Pods_SimplyChat.framework in Frameworks */,
+				C33A5D1067D7419A50466FA1 /* Pods_SimplyChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		177A2B98600FEA39F11A24CE /* Pods */ = {
+		8E062BE1494743D777939A23 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB58578B769BAA3CF7E6B932 /* Pods-SimplyChat.debug.xcconfig */,
-				C1CEFAAD3C12E8A30D561D96 /* Pods-SimplyChat.release.xcconfig */,
+				05832EB69ED436B1B17EEED3 /* Pods-SimplyChat.debug.xcconfig */,
+				19C944E2B01B4C1EEADFE6E8 /* Pods-SimplyChat.release.xcconfig */,
 			);
-			path = Pods;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		954E5E7BA29B941AFA1F10E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28E1B863E9D78737673AA221 /* Pods_SimplyChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B52FB43C24536F5700F83B0D = {
@@ -58,8 +70,8 @@
 			children = (
 				B52FB44724536F5700F83B0D /* SimplyChat */,
 				B52FB44624536F5700F83B0D /* Products */,
-				177A2B98600FEA39F11A24CE /* Pods */,
-				EE19B3707954A9A8AD22DF23 /* Frameworks */,
+				8E062BE1494743D777939A23 /* Pods */,
+				954E5E7BA29B941AFA1F10E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,16 +94,10 @@
 				B52FB45624536F5900F83B0D /* LaunchScreen.storyboard */,
 				B52FB45924536F5900F83B0D /* Info.plist */,
 				B52FB45124536F5700F83B0D /* SimplyChat.xcdatamodeld */,
+				6D6D20742453CDB300935A08 /* MessageMainViewCell.swift */,
+				6D6D20752453CDB300935A08 /* MessageMainViewCell.xib */,
 			);
 			path = SimplyChat;
-			sourceTree = "<group>";
-		};
-		EE19B3707954A9A8AD22DF23 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BD154BDB9F87E129328D81AF /* Pods_SimplyChat.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,7 +107,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B52FB45C24536F5900F83B0D /* Build configuration list for PBXNativeTarget "SimplyChat" */;
 			buildPhases = (
-				FE3564CE3EECB23F7DB07898 /* [CP] Check Pods Manifest.lock */,
+				CF94C4AE4BF791F54CB2076C /* [CP] Check Pods Manifest.lock */,
 				B52FB44124536F5700F83B0D /* Sources */,
 				B52FB44224536F5700F83B0D /* Frameworks */,
 				B52FB44324536F5700F83B0D /* Resources */,
@@ -154,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52FB45824536F5900F83B0D /* LaunchScreen.storyboard in Resources */,
+				6D6D20772453CDB300935A08 /* MessageMainViewCell.xib in Resources */,
 				B52FB45524536F5900F83B0D /* Assets.xcassets in Resources */,
 				B52FB45024536F5700F83B0D /* Main.storyboard in Resources */,
 			);
@@ -162,20 +169,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		FE3564CE3EECB23F7DB07898 /* [CP] Check Pods Manifest.lock */ = {
+		CF94C4AE4BF791F54CB2076C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SimplyChat-checkManifestLockResult.txt",
 			);
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D6D20762453CDB300935A08 /* MessageMainViewCell.swift in Sources */,
 				B52FB44D24536F5700F83B0D /* ViewController.swift in Sources */,
 				B52FB45324536F5700F83B0D /* SimplyChat.xcdatamodeld in Sources */,
 				B52FB44924536F5700F83B0D /* AppDelegate.swift in Sources */,
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -324,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +340,7 @@
 		};
 		B52FB45D24536F5900F83B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB58578B769BAA3CF7E6B932 /* Pods-SimplyChat.debug.xcconfig */;
+			baseConfigurationReference = 05832EB69ED436B1B17EEED3 /* Pods-SimplyChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -355,7 +359,7 @@
 		};
 		B52FB45E24536F5900F83B0D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1CEFAAD3C12E8A30D561D96 /* Pods-SimplyChat.release.xcconfig */;
+			baseConfigurationReference = 19C944E2B01B4C1EEADFE6E8 /* Pods-SimplyChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
