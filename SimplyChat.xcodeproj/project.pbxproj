@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6D6D20762453CDB300935A08 /* MessageMainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D20742453CDB300935A08 /* MessageMainViewCell.swift */; };
 		6D6D20772453CDB300935A08 /* MessageMainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D6D20752453CDB300935A08 /* MessageMainViewCell.xib */; };
+		6D6D207C2453D06600935A08 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D207A2453D06600935A08 /* WelcomeViewController.swift */; };
 		B52FB44924536F5700F83B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52FB44824536F5700F83B0D /* AppDelegate.swift */; };
 		B52FB44B24536F5700F83B0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52FB44A24536F5700F83B0D /* SceneDelegate.swift */; };
 		B52FB44D24536F5700F83B0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52FB44C24536F5700F83B0D /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 		28E1B863E9D78737673AA221 /* Pods_SimplyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6D20742453CDB300935A08 /* MessageMainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMainViewCell.swift; sourceTree = "<group>"; };
 		6D6D20752453CDB300935A08 /* MessageMainViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageMainViewCell.xib; sourceTree = "<group>"; };
+		6D6D207A2453D06600935A08 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B52FB44524536F5700F83B0D /* SimplyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52FB44824536F5700F83B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B52FB44A24536F5700F83B0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				B52FB44A24536F5700F83B0D /* SceneDelegate.swift */,
 				B52FB44C24536F5700F83B0D /* ViewController.swift */,
 				B52FB44E24536F5700F83B0D /* Main.storyboard */,
+				6D6D207A2453D06600935A08 /* WelcomeViewController.swift */,
 				B52FB45424536F5900F83B0D /* Assets.xcassets */,
 				B52FB45624536F5900F83B0D /* LaunchScreen.storyboard */,
 				B52FB45924536F5900F83B0D /* Info.plist */,
@@ -111,6 +114,7 @@
 				B52FB44124536F5700F83B0D /* Sources */,
 				B52FB44224536F5700F83B0D /* Frameworks */,
 				B52FB44324536F5700F83B0D /* Resources */,
+				6D6D20782453CF6200935A08 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -169,6 +173,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6D6D20782453CF6200935A08 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
 		CF94C4AE4BF791F54CB2076C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -197,6 +218,7 @@
 				6D6D20762453CDB300935A08 /* MessageMainViewCell.swift in Sources */,
 				B52FB44D24536F5700F83B0D /* ViewController.swift in Sources */,
 				B52FB45324536F5700F83B0D /* SimplyChat.xcdatamodeld in Sources */,
+				6D6D207C2453D06600935A08 /* WelcomeViewController.swift in Sources */,
 				B52FB44924536F5700F83B0D /* AppDelegate.swift in Sources */,
 				B52FB44B24536F5700F83B0D /* SceneDelegate.swift in Sources */,
 			);
