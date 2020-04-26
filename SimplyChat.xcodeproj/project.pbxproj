@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		096DFD492456208B00850D3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 096DFD482456208B00850D3E /* GoogleService-Info.plist */; };
 		6D6D20762453CDB300935A08 /* MessageMainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D20742453CDB300935A08 /* MessageMainViewCell.swift */; };
 		6D6D20772453CDB300935A08 /* MessageMainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D6D20752453CDB300935A08 /* MessageMainViewCell.xib */; };
 		6D6D207C2453D06600935A08 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D207A2453D06600935A08 /* WelcomeViewController.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		05832EB69ED436B1B17EEED3 /* Pods-SimplyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplyChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimplyChat/Pods-SimplyChat.debug.xcconfig"; sourceTree = "<group>"; };
+		096DFD482456208B00850D3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		19C944E2B01B4C1EEADFE6E8 /* Pods-SimplyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimplyChat/Pods-SimplyChat.release.xcconfig"; sourceTree = "<group>"; };
 		28E1B863E9D78737673AA221 /* Pods_SimplyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6D20742453CDB300935A08 /* MessageMainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMainViewCell.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				B52FB45624536F5900F83B0D /* LaunchScreen.storyboard */,
 				B52FB45924536F5900F83B0D /* Info.plist */,
 				B52FB45124536F5700F83B0D /* SimplyChat.xcdatamodeld */,
+				096DFD482456208B00850D3E /* GoogleService-Info.plist */,
 				6D6D20742453CDB300935A08 /* MessageMainViewCell.swift */,
 				6D6D20752453CDB300935A08 /* MessageMainViewCell.xib */,
 				6D932E812455787600BC2096 /* ProflleViewController.swift */,
@@ -121,6 +124,7 @@
 				B52FB44224536F5700F83B0D /* Frameworks */,
 				B52FB44324536F5700F83B0D /* Resources */,
 				6D6D20782453CF6200935A08 /* ShellScript */,
+				D929AC135A91B3B7C4FA615B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +176,7 @@
 				B52FB45824536F5900F83B0D /* LaunchScreen.storyboard in Resources */,
 				6D6D20772453CDB300935A08 /* MessageMainViewCell.xib in Resources */,
 				B52FB45524536F5900F83B0D /* Assets.xcassets in Resources */,
+				096DFD492456208B00850D3E /* GoogleService-Info.plist in Resources */,
 				B52FB45024536F5700F83B0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +217,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D929AC135A91B3B7C4FA615B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimplyChat/Pods-SimplyChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimplyChat/Pods-SimplyChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimplyChat/Pods-SimplyChat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

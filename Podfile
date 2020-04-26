@@ -8,7 +8,12 @@ def pods_list
     #pod 'SVProgressHUD', '2.1.2'
     #pod 'ReachabilitySwift'
     #pod 'IQKeyboardManagerSwift'
-	pod 'SwiftLint'
+    pod 'SwiftLint'
+    pod 'Firebase/Analytics'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Firestore'
+    pod 'Firebase/Database'
+    pod 'Firebase/Storage'
 end
 
 target 'SimplyChat' do
