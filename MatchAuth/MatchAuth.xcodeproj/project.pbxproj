@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B39EA32454DDE200F194E8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B39EA22454DDE200F194E8 /* TableViewController.swift */; };
+		09B39EA52454DF1800F194E8 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B39EA42454DF1800F194E8 /* LoginController.swift */; };
+		09D2D22E24548A8E00F5A347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D2D22D24548A8E00F5A347 /* AppDelegate.swift */; };
+		09D2D23024548A8E00F5A347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D2D22F24548A8E00F5A347 /* SceneDelegate.swift */; };
+		09D2D23524548A8E00F5A347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D2D23324548A8E00F5A347 /* Main.storyboard */; };
+		09D2D23824548A8E00F5A347 /* MatchAuth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09D2D23624548A8E00F5A347 /* MatchAuth.xcdatamodeld */; };
+		09D2D23A24548A9100F5A347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D2D23924548A9100F5A347 /* Assets.xcassets */; };
+		09D2D23D24548A9100F5A347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D2D23B24548A9100F5A347 /* LaunchScreen.storyboard */; };
+		09D2D24524548A9E00F5A347 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09D2D24424548A9E00F5A347 /* GoogleService-Info.plist */; };
+		568A0961518EBB49D4E0A5D9 /* Pods_MatchAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE71BE0A284C46F918AACD41 /* Pods_MatchAuth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09B39EA22454DDE200F194E8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		09B39EA42454DF1800F194E8 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		09D2D22A24548A8E00F5A347 /* MatchAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D2D22D24548A8E00F5A347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09D2D22F24548A8E00F5A347 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09D2D23424548A8E00F5A347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09D2D23724548A8E00F5A347 /* MatchAuth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MatchAuth.xcdatamodel; sourceTree = "<group>"; };
+		09D2D23924548A9100F5A347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09D2D23C24548A9100F5A347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09D2D23E24548A9100F5A347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09D2D24424548A9E00F5A347 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9E988553C0F4CD7A3BFFF18B /* Pods-MatchAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchAuth.debug.xcconfig"; path = "Target Support Files/Pods-MatchAuth/Pods-MatchAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		DE71BE0A284C46F918AACD41 /* Pods_MatchAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D50F74999E32DCAC53674C /* Pods-MatchAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchAuth.release.xcconfig"; path = "Target Support Files/Pods-MatchAuth/Pods-MatchAuth.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09D2D22724548A8E00F5A347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568A0961518EBB49D4E0A5D9 /* Pods_MatchAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09D2D22124548A8E00F5A347 = {
+			isa = PBXGroup;
+			children = (
+				09D2D22C24548A8E00F5A347 /* MatchAuth */,
+				09D2D22B24548A8E00F5A347 /* Products */,
+				315DEB19842EB78DB44A5BD2 /* Pods */,
+				679EC52031481666EF97100E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09D2D22B24548A8E00F5A347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09D2D22A24548A8E00F5A347 /* MatchAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09D2D22C24548A8E00F5A347 /* MatchAuth */ = {
+			isa = PBXGroup;
+			children = (
+				09D2D22D24548A8E00F5A347 /* AppDelegate.swift */,
+				09D2D22F24548A8E00F5A347 /* SceneDelegate.swift */,
+				09D2D23324548A8E00F5A347 /* Main.storyboard */,
+				09B39EA42454DF1800F194E8 /* LoginController.swift */,
+				09B39EA22454DDE200F194E8 /* TableViewController.swift */,
+				09D2D23924548A9100F5A347 /* Assets.xcassets */,
+				09D2D23B24548A9100F5A347 /* LaunchScreen.storyboard */,
+				09D2D23E24548A9100F5A347 /* Info.plist */,
+				09D2D24424548A9E00F5A347 /* GoogleService-Info.plist */,
+				09D2D23624548A8E00F5A347 /* MatchAuth.xcdatamodeld */,
+			);
+			path = MatchAuth;
+			sourceTree = "<group>";
+		};
+		315DEB19842EB78DB44A5BD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E988553C0F4CD7A3BFFF18B /* Pods-MatchAuth.debug.xcconfig */,
+				E3D50F74999E32DCAC53674C /* Pods-MatchAuth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		679EC52031481666EF97100E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE71BE0A284C46F918AACD41 /* Pods_MatchAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09D2D22924548A8E00F5A347 /* MatchAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09D2D24124548A9100F5A347 /* Build configuration list for PBXNativeTarget "MatchAuth" */;
+			buildPhases = (
+				5E54652AD22DF4EBB36555B3 /* [CP] Check Pods Manifest.lock */,
+				09D2D22624548A8E00F5A347 /* Sources */,
+				09D2D22724548A8E00F5A347 /* Frameworks */,
+				09D2D22824548A8E00F5A347 /* Resources */,
+				59B28121756724FCDC732ADD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatchAuth;
+			productName = MatchAuth;
+			productReference = 09D2D22A24548A8E00F5A347 /* MatchAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09D2D22224548A8E00F5A347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ivan Tyurin";
+				TargetAttributes = {
+					09D2D22924548A8E00F5A347 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 09D2D22524548A8E00F5A347 /* Build configuration list for PBXProject "MatchAuth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09D2D22124548A8E00F5A347;
+			productRefGroup = 09D2D22B24548A8E00F5A347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09D2D22924548A8E00F5A347 /* MatchAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09D2D22824548A8E00F5A347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D2D23D24548A9100F5A347 /* LaunchScreen.storyboard in Resources */,
+				09D2D23A24548A9100F5A347 /* Assets.xcassets in Resources */,
+				09D2D23524548A8E00F5A347 /* Main.storyboard in Resources */,
+				09D2D24524548A9E00F5A347 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59B28121756724FCDC732ADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MatchAuth/Pods-MatchAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MatchAuth/Pods-MatchAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MatchAuth/Pods-MatchAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E54652AD22DF4EBB36555B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MatchAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09D2D22624548A8E00F5A347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D2D23824548A8E00F5A347 /* MatchAuth.xcdatamodeld in Sources */,
+				09D2D22E24548A8E00F5A347 /* AppDelegate.swift in Sources */,
+				09D2D23024548A8E00F5A347 /* SceneDelegate.swift in Sources */,
+				09B39EA32454DDE200F194E8 /* TableViewController.swift in Sources */,
+				09B39EA52454DF1800F194E8 /* LoginController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09D2D23324548A8E00F5A347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09D2D23424548A8E00F5A347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09D2D23B24548A9100F5A347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09D2D23C24548A9100F5A347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09D2D23F24548A9100F5A347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09D2D24024548A9100F5A347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09D2D24224548A9100F5A347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E988553C0F4CD7A3BFFF18B /* Pods-MatchAuth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25J9GRY823;
+				INFOPLIST_FILE = MatchAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ivantyurin.MatchAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09D2D24324548A9100F5A347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D50F74999E32DCAC53674C /* Pods-MatchAuth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25J9GRY823;
+				INFOPLIST_FILE = MatchAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ivantyurin.MatchAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09D2D22524548A8E00F5A347 /* Build configuration list for PBXProject "MatchAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D2D23F24548A9100F5A347 /* Debug */,
+				09D2D24024548A9100F5A347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09D2D24124548A9100F5A347 /* Build configuration list for PBXNativeTarget "MatchAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D2D24224548A9100F5A347 /* Debug */,
+				09D2D24324548A9100F5A347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09D2D23624548A8E00F5A347 /* MatchAuth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09D2D23724548A8E00F5A347 /* MatchAuth.xcdatamodel */,
+			);
+			currentVersion = 09D2D23724548A8E00F5A347 /* MatchAuth.xcdatamodel */;
+			path = MatchAuth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09D2D22224548A8E00F5A347 /* Project object */;
+}
