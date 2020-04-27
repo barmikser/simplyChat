@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 class ProflleViewController: UIViewController {
 
@@ -17,14 +19,39 @@ class ProflleViewController: UIViewController {
     @IBOutlet weak var statusTitle: UILabel!
     
     var tableViewController : SettingsTableViewController?
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        
+        guard let uid = Auth.auth().currentUser?.uid else {
+            if let loginVC = storyboard?.instantiateViewController(identifier: "loginVC") {
+                present(loginVC, animated: true, completion: nil)
+            }
+            return
+        }
+        let referenceDB = Database.database().reference(fromURL: "https://match-c80a8.firebaseio.com/")
+        let userRefarence = referenceDB.child("users").child(uid)
+        userRefarence.observe(.value) { (snapshot) in
+            if let dictionary = snapshot.value as? [String: AnyObject] {
+                guard let name = dictionary["name"] as? String else { return }
+                guard let surname = dictionary["surname"] as? String else { return }
+                self.titleBarItem.title = "\(name) \(surname)"
+                
+            }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         tableViewController = self.children[0] as? SettingsTableViewController
         tableViewController?.delegate = self
+        
+        
+        
+        
+        
     }
     
     @IBAction func onExtraButtonClick(_ sender: Any) {
@@ -63,6 +90,15 @@ extension ProflleViewController{
 extension ProflleViewController : SettingsTableViewControllerDelegate  {
     // do stuff here
     func logoutTapped() {
+        do {
+            try Auth.auth().signOut()
+        } catch let logoutError {
+            print(logoutError)
+        }
+        
+        if let loginVC = storyboard?.instantiateViewController(identifier: "loginVC") {
+            present(loginVC, animated: true, completion: nil)
+        }
         print("logout tapped")
     }
 }
