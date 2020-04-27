@@ -32,12 +32,13 @@ class ProflleViewController: UIViewController {
         let referenceDB = Database.database().reference(fromURL: "https://match-c80a8.firebaseio.com/")
         let userRefarence = referenceDB.child("users").child(uid)
         userRefarence.observe(.value) { (snapshot) in
-            if let dictionary = snapshot.value as? [String: AnyObject] {
-                guard let name = dictionary["name"] as? String else { return }
-                guard let surname = dictionary["surname"] as? String else { return }
-                self.titleBarItem.title = "\(name) \(surname)"
-                
-            }
+            guard let dictionary = snapshot.value as? [String: AnyObject] else { return }
+            
+            let user = User(dictionary: dictionary)
+            guard let name = user.name else { return }
+            guard let surname = user.surname else { return }
+            self.titleBarItem.title = "\(name) \(surname)"
+            
         }
     }
     

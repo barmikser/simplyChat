@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var forgotButton: UIButton!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var signUpButton: UIButton!
+    @IBOutlet weak var backButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,6 +62,19 @@ class ViewController: UIViewController {
         surnameTextField.isHidden = false
         cityTextField.isHidden = false
         registrationButton.isHidden = false
+        backButton.isHidden = false
+    }
+    
+    @IBAction func backClicked(_ sender: UIButton) {
+        forgotButton.isHidden = false
+        loginButton.isHidden = false
+        signUpButton.isHidden = false
+        
+        nameTextField.isHidden = true
+        surnameTextField.isHidden = true
+        cityTextField.isHidden = true
+        registrationButton.isHidden = true
+        backButton.isHidden = true
     }
     
     @IBAction func registrationButton(_ sender: UIButton) {
@@ -77,7 +91,7 @@ class ViewController: UIViewController {
             guard let uid = authResult?.user.uid else { return }
             let userReference = refDB.child("users").child(uid)
             
-            let values = ["email": emailText, "name": name, "surname": surname, "city": city]
+            let values = ["id": uid,"email": emailText, "name": name, "surname": surname, "city": city]
             userReference.updateChildValues(values, withCompletionBlock: { (errorDB, reference) in
                 if errorDB != nil {
                     print(errorDB!)
